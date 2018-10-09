@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Unit Test Files">
+      <UniqueIdentifier>{3e75cc7d-74a4-48c4-aa9c-25b952577ee0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test00.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test0A.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test0B.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test0C.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test0D.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test0E.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test0F.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test01.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test02.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test03.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test04.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test05.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test06.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test07.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test08.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test09.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test10.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test11.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
