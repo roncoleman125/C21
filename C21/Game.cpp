@@ -131,6 +131,10 @@ void playout(Hand* hand, Card* upcard) {
 
 		if (isBroke(hand) || isBlackjack(hand))
 			return;
+
+		if (hand->size >= MAX_HAND_CARDS)
+			return;
+
 		/*
 		if (isCharlie(hand))
 		return;
@@ -149,6 +153,8 @@ void playout(Hand* hand, Card* upcard) {
 
 	case SPLIT:
 		//assert(isPair(hand));
+		if (!isPair(hand))
+			return;
 
 		split(hand, upcard);
 		break;
