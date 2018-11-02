@@ -153,7 +153,7 @@ void playout(Hand* hand, Card* upcard) {
 
 	case SPLIT:
 		//assert(isPair(hand));
-		if (!isPair(hand))
+		if (hand->size != 2)
 			return;
 
 		split(hand, upcard);
